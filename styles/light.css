@@ -1,9 +1,9 @@
 .page.theme_light {
-  --accentColor: #FF8DCB;
-  --backgroundColor: #FFF1F7;
-  --titleColor: #FFC2E6;
+  --accentColor: #ff8dcb;
+  --backgroundColor: #fff1f7;
+  --titleColor: #ffc2e6;
   --subtitleColor: #353430;
   --textColor: #353430;
-  --headerBackgroundImage: url('../images/cover-image-light.png');
+  --headerBackgroundImage: url("../images/cover-image-light.png");
   --onlyDarkThemeOpacity: 0;
 }

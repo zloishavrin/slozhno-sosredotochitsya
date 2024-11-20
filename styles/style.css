@@ -46,7 +46,7 @@
   z-index: -1;
   color: var(--accentColor);
   inset-block-start: 20px;
-  inset-inline-end: calc(52px/2 + 22.5px);
+  inset-inline-end: calc(52px / 2 + 22.5px);
   font-size: 18px;
   line-height: 138%;
   justify-content: flex-end;
@@ -218,7 +218,7 @@
 .section__element {
   display: flex;
   flex-direction: column;
-  gap: 10px
+  gap: 10px;
 }
 
 .section-first-type .section__element {
@@ -253,14 +253,14 @@
   width: 100%;
   min-height: 102vw;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.85fr 1fr 1fr 0.31fr;
   gap: 20px 20px;
-  grid-template-areas: 
+  grid-template-areas:
     "Image1 Image1 Image2"
     "Image3 Image5 Image2"
     "Image3 Image4 Image4"
-    "Image3 Image4 Image4"; 
+    "Image3 Image4 Image4";
 }
 
 .gallery_image {
@@ -361,15 +361,15 @@
     inset-inline-start: 10px;
     inset-block-end: 10px;
   }
-  
+
   .decorated-zone::before {
     inset-inline-end: 10px;
     inset-block-start: 10px;
   }
-  
+
   .decorated-zone__caption {
     inset-block-start: 10px;
-    inset-inline-end: calc(52px/2 + 11px);
+    inset-inline-end: calc(52px / 2 + 11px);
     font-size: 18px;
     line-height: 138%;
     display: flex;
@@ -412,12 +412,12 @@
     margin-block-end: 5px;
     gap: 50px;
   }
-  
+
   .section {
     display: flex;
     width: 94.67vw;
   }
-  
+
   .section-first-type {
     flex-direction: column;
   }
@@ -425,15 +425,15 @@
   .section-second-type .section__content {
     flex-direction: column;
   }
-  
+
   .section-first-type .section__title {
-    width: 100%
+    width: 100%;
   }
 
   .section-second-type .section__title {
     width: 100%;
   }
-  
+
   .section-first-type .section__element {
     width: 100%;
   }
@@ -450,14 +450,14 @@
     width: 100%;
     min-height: 364.2vw;
     display: grid;
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr;
     gap: 10px 10px;
-    grid-template-areas: 
+    grid-template-areas:
       "Image1"
       "Image2"
       "Image3"
       "Image5"
-      "Image4"; 
+      "Image4";
   }
 }

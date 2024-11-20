@@ -1,9 +1,9 @@
 .page.theme_dark {
   --accentColor: #ff0070;
   --backgroundColor: #000028;
-  --titleColor: #DB00FF;
+  --titleColor: #db00ff;
   --subtitleColor: #000028;
-  --textColor: #F1B2CE;
-  --headerBackgroundImage: url('../images/cover-image-dark.png');
+  --textColor: #f1b2ce;
+  --headerBackgroundImage: url("../images/cover-image-dark.png");
   --onlyDarkThemeOpacity: 1;
 }

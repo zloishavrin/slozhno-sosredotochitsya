@@ -1,21 +1,21 @@
 :root {
   --accentColor: #ff0070;
   --backgroundColor: #000028;
-  --titleColor: #DB00FF;
+  --titleColor: #db00ff;
   --subtitleColor: #000028;
-  --textColor: #F1B2CE;
-  --headerBackgroundImage: url('../images/cover-image-dark.png');
+  --textColor: #f1b2ce;
+  --headerBackgroundImage: url("../images/cover-image-dark.png");
   --onlyDarkThemeOpacity: 1;
 }
 
 @media (prefers-color-scheme: light) {
-  :root  {
-    --accentColor: #FF8DCB;
-    --backgroundColor: #FFF1F7;
-    --titleColor: #FFC2E6;
+  :root {
+    --accentColor: #ff8dcb;
+    --backgroundColor: #fff1f7;
+    --titleColor: #ffc2e6;
     --subtitleColor: #353430;
     --textColor: #353430;
-    --headerBackgroundImage: url('../images/cover-image-light.png');
+    --headerBackgroundImage: url("../images/cover-image-light.png");
     --onlyDarkThemeOpacity: 0;
   }
 }
