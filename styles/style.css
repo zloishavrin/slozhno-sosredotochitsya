@@ -24,8 +24,8 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  border-inline-start: 1px solid var(--accentColor);
-  border-block-end: 1px solid var(--accentColor);
+  border-inline-start: 1.5px solid var(--accentColor);
+  border-block-end: 1.5px solid var(--accentColor);
   inset-inline-start: 20px;
   inset-block-end: 20px;
 }
@@ -35,8 +35,8 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  border-inline-end: 1px solid var(--accentColor);
-  border-block-start: 1px solid var(--accentColor);
+  border-inline-end: 1.5px solid var(--accentColor);
+  border-block-start: 1.5px solid var(--accentColor);
   inset-inline-end: 20px;
   inset-block-start: 20px;
 }
@@ -100,12 +100,12 @@
 }
 
 .header__theme-menu-button_active {
-  border: inset 0.09vw var(--accentColor);
+  outline: solid 1.5px var(--accentColor);
   pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  border: inset 0.09vw var(--accentColor);
+  outline: solid 1.5px var(--accentColor);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -252,7 +252,7 @@
 
 .section__gallery {
   width: 100%;
-  min-height: 102vw;
+  max-height: 102.1vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.81fr 1fr 1fr 0.29fr;
