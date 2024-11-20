@@ -213,6 +213,7 @@
 
 .section-second-type .section__content {
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .section__element {
