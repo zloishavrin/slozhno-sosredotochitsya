@@ -254,7 +254,7 @@
   min-height: 102vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.85fr 1fr 1fr 0.31fr;
+  grid-template-rows: 0.81fr 1fr 1fr 0.29fr;
   gap: 20px 20px;
   grid-template-areas:
     "Image1 Image1 Image2"
@@ -409,7 +409,7 @@
 
   .main {
     margin-block-start: 40px;
-    margin-block-end: 5px;
+    margin-block-end: 40px;
     gap: 50px;
   }
 
