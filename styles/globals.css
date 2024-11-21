@@ -2,8 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  transition: color 0.2s ease-out, background-color 0.2s ease-out,
-    background-image 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 body {
@@ -38,8 +37,12 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  text-decoration: none;
+  outline: none;
+  border: none;
 }
 
 a:focus {
   outline: none;
+  background-color: transparent;
 }

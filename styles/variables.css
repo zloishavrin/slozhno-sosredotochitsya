@@ -1,21 +1,11 @@
 :root {
   --accentColor: #ff0070;
+  --accentColorOpaque: rgba(255, 0, 112, 0.4);
   --backgroundColor: #000028;
   --titleColor: #db00ff;
   --subtitleColor: #000028;
   --textColor: #f1b2ce;
+  --sectionTitleColor: #FF0070;
   --headerBackgroundImage: url("../images/cover-image-dark.png");
   --onlyDarkThemeOpacity: 1;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --accentColor: #ff8dcb;
-    --backgroundColor: #fff1f7;
-    --titleColor: #ffc2e6;
-    --subtitleColor: #353430;
-    --textColor: #353430;
-    --headerBackgroundImage: url("../images/cover-image-light.png");
-    --onlyDarkThemeOpacity: 0;
-  }
 }

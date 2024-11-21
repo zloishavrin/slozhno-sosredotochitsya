@@ -1,9 +1,25 @@
 .page.theme_light {
   --accentColor: #ff8dcb;
+  --accentColorOpaque: rgba(53, 52, 48, 0.4);
   --backgroundColor: #fff1f7;
   --titleColor: #ffc2e6;
   --subtitleColor: #353430;
   --textColor: #353430;
+  --sectionTitleColor: #353430;
   --headerBackgroundImage: url("../images/cover-image-light.png");
   --onlyDarkThemeOpacity: 0;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accentColor: #ff8dcb;
+    --accentColorOpaque: rgba(53, 52, 48, 0.4);
+    --backgroundColor: #fff1f7;
+    --titleColor: #ffc2e6;
+    --subtitleColor: #353430;
+    --textColor: #353430;
+    --sectionTitleColor: #353430;
+    --headerBackgroundImage: url("../images/cover-image-light.png");
+    --onlyDarkThemeOpacity: 0;
+  }
 }

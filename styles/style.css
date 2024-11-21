@@ -10,7 +10,8 @@
 }
 
 .header {
-  min-height: 100vh;
+  min-height: 668px;
+  height: 100vh;
   width: 100vw;
   inset: 0;
   display: grid;
@@ -94,29 +95,29 @@
   line-height: 100%;
   background: none;
   border: none;
-  color: var(--accentColor);
+  color: var(--sectionTitleColor);
   padding-block-end: 4.9px;
   cursor: pointer;
 }
 
 .header__theme-menu-button_active {
-  outline: solid 1.5px var(--accentColor);
+  outline: solid 1.5px var(--sectionTitleColor);
   pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  outline: solid 1.5px var(--accentColor);
+  outline: solid 1.5px var(--accentColorOpaque);
 }
 
 .header__theme-menu-button:focus-visible {
-  box-shadow: inset 0 -0.09vw 0 var(--accentColor);
+  box-shadow: inset 0 -0.09vw 0 var(--sectionTitleColor);
 }
 
 .header__title {
   font-weight: bold;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   color: var(--titleColor);
-  text-shadow: 0.38vw 0.38vw 0 var(--accentColor);
+  text-shadow: 4px 4px 0 var(--accentColor);
   text-transform: lowercase;
 }
 
@@ -144,7 +145,7 @@
 }
 
 .text__hyperlink {
-  text-shadow: 0.14vw 0.14vw 0 var(--accentColor);
+  text-shadow: 2px 2px 0 var(--accentColor);
   text-decoration: none;
   border-bottom: 1.5px solid transparent;
   transition: border 0.2s ease-out;
@@ -153,7 +154,7 @@
 .text__hyperlink:hover {
   border-bottom: 1.5px solid var(--textColor);
 }
-
+/* Фокус в global.css сброшен */
 .text__hyperlink:focus-visible {
   outline: var(--textColor) solid 1.5px;
 }
@@ -169,16 +170,16 @@
 
 .section {
   display: flex;
-  width: 96.09vw;
+  width: 96.2vw;
   gap: 20px;
 }
 
-.section-first-type {
+.section-desktop-vertical-type {
   flex-direction: row;
   justify-content: space-between;
 }
 
-.section-second-type {
+.section-desktop-horizontal-type {
   flex-direction: column;
 }
 
@@ -187,7 +188,7 @@
 }
 
 .section__title {
-  color: var(--accentColor);
+  color: var(--sectionTitleColor);
   font-size: 18px;
   font-weight: bold;
   line-height: 130%;
@@ -207,13 +208,14 @@
   gap: 20px;
 }
 
-.section-first-type .section__content {
+.section-desktop-vertical-type .section__content {
   flex-direction: column;
 }
 
-.section-second-type .section__content {
+.section-desktop-horizontal-type .section__content {
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .section__element {
@@ -222,11 +224,11 @@
   gap: 10px;
 }
 
-.section-first-type .section__element {
+.section-desktop-vertical-type .section__element {
   width: 63.38vw;
 }
 
-.section-second-type .section__element {
+.section-desktop-horizontal-type .section__element {
   width: 30.76vw;
 }
 
@@ -297,7 +299,8 @@
 
 .footer {
   width: 100vw;
-  min-height: 100vh;
+  min-height: 668px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,7 +311,7 @@
   font-weight: bold;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   color: var(--titleColor);
-  text-shadow: 0.19vw 0.19vw 0 var(--accentColor);
+  text-shadow: 2px 2px 0 var(--accentColor);
   text-transform: lowercase;
 }
 
@@ -344,15 +347,15 @@
     width: 61.46vw;
   }
 
-  .section-second-type .section__content {
+  .section-desktop-horizontal-type .section__content {
     flex-direction: column;
   }
 
-  .section-first-type .section__element {
+  .section-desktop-vertical-type .section__element {
     width: 61.46vw;
   }
 
-  .section-second-type .section__element {
+  .section-desktop-horizontal-type .section__element {
     width: 100%;
   }
 }
@@ -419,27 +422,27 @@
     width: 94.67vw;
   }
 
-  .section-first-type {
+  .section-desktop-vertical-type {
     flex-direction: column;
   }
 
-  .section-second-type .section__content {
+  .section-desktop-horizontal-type .section__content {
     flex-direction: column;
   }
 
-  .section-first-type .section__title {
+  .section-desktop-vertical-type .section__title {
     width: 100%;
   }
 
-  .section-second-type .section__title {
+  .section-desktop-horizontal-type .section__title {
     width: 100%;
   }
 
-  .section-first-type .section__element {
+  .section-desktop-vertical-type .section__element {
     width: 100%;
   }
 
-  .section-second-type .section__element {
+  .section-desktop-horizontal-type .section__element {
     width: 100%;
   }
 
