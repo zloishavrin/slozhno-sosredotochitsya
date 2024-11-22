@@ -1,5 +1,4 @@
 .page {
-  overflow-x: hidden;
   font-family: "IBM Plex Mono", "Courier New", monospace;
   background-color: var(--backgroundColor);
   background-image: var(--headerBackgroundImage);
@@ -12,7 +11,6 @@
 .header {
   min-height: 668px;
   height: 100vh;
-  width: 100vw;
   inset: 0;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
@@ -25,8 +23,8 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  border-inline-start: 1.5px solid var(--accentColor);
-  border-block-end: 1.5px solid var(--accentColor);
+  border-inline-start: 1.5px solid var(--sectionTitleColor);
+  border-block-end: 1.5px solid var(--sectionTitleColor);
   inset-inline-start: 20px;
   inset-block-end: 20px;
 }
@@ -36,8 +34,8 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  border-inline-end: 1.5px solid var(--accentColor);
-  border-block-start: 1.5px solid var(--accentColor);
+  border-inline-end: 1.5px solid var(--sectionTitleColor);
+  border-block-start: 1.5px solid var(--sectionTitleColor);
   inset-inline-end: 20px;
   inset-block-start: 20px;
 }
@@ -70,7 +68,7 @@
 }
 
 .header__theme-menu {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -298,7 +296,6 @@
 }
 
 .footer {
-  width: 100vw;
   min-height: 668px;
   height: 100vh;
   display: flex;
